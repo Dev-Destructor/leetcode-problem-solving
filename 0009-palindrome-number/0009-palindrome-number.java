@@ -1,15 +1,24 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        if (x < 0 || (x % 10 == 0 && x != 0)) {
+        int originalX = x;
+        if (x < 0) {
             return false;
         }
-        int reversed = 0;
-        int original = x;
+        
+        int reversedX = 0; 
+        
+        Math.abs(x);
+        
         while (x > 0) {
-            int digit = x % 10;
-            x /= 10;
-            reversed = reversed * 10 + digit;
+            int ld = x % 10;
+            reversedX = (reversedX * 10) + ld;
+            x = x / 10;
         }
-        return original == reversed;
+        
+        if (reversedX == originalX) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }

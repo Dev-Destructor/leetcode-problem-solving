@@ -1,24 +1,23 @@
 class Solution {
-    public boolean isPalindrome(int x) {
-        int originalX = x;
-        if (x < 0) {
+    public boolean isPalindrome(int x) {        
+        if(x < 0) {
             return false;
         }
         
-        int reversedX = 0; 
+        int original = x;
+        int reverse = 0;
         
-        Math.abs(x);
-        
-        while (x > 0) {
-            int ld = x % 10;
-            reversedX = (reversedX * 10) + ld;
+        while(x > 0) {
+            int lastDigit = x % 10;
+            reverse = (reverse * 10) + lastDigit;
             x = x / 10;
         }
         
-        if (reversedX == originalX) {
+        if(original == reverse) {
             return true;
         } else {
             return false;
         }
+        
     }
 }

@@ -1,8 +1,8 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        Arrays.sort(nums);
         int n = nums.length;
+        Arrays.sort(nums);
+        List<List<Integer>> ans = new ArrayList<>();
         
         for(int i = 0; i < n; i++) {
             if(i != 0 && nums[i] == nums[i - 1]) {
@@ -13,10 +13,11 @@ class Solution {
             
             while(j < k) {
                 int sum = nums[i] + nums[j] + nums[k];
-                if(sum < 0) {
-                    j++;
-                } else if(sum > 0) {
+                
+                if(sum > 0) {
                     k--;
+                } else if(sum < 0) {
+                    j++;
                 } else {
                     List<Integer> temp = Arrays.asList(nums[i], nums[j], nums[k]);
                     ans.add(temp);
@@ -37,3 +38,10 @@ class Solution {
         return ans;
     }
 }
+
+// 3 pointers i = 0, j = i + 1, k = n -1;
+// check sum is 0 or not
+// > 0 reduce k / < 0 increase j till j < k
+// if 0 then add a list of i j k into the list of list 
+// increase j and decrease k
+// if j is same with previous / k is same with previouse move pointer till j < k

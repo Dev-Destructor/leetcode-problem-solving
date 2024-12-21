@@ -10,7 +10,7 @@ class Solution {
     }
     
     public int minEatingSpeed(int[] piles, int h) {
-        int n = piles.length, k = Integer.MAX_VALUE;
+        int n = piles.length;
         int max = piles[0];
         
         for(int i = 1; i < n; i++) {
@@ -25,13 +25,12 @@ class Solution {
             int th = totalHours(piles, n, m);
             
             if(th <= h) {
-                k = Math.min(m, k);
                 hi = m - 1;
             } else {
                 lo = m + 1;
             }
         }
         
-        return k;
+        return lo;
     }
 }

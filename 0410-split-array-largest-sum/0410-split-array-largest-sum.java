@@ -30,9 +30,8 @@ class Solution {
         
         while(l <= h) {
             int m = (l + h) / 2;
-            int subArrays = getSubArrays(nums, n, m);
             
-            if(subArrays > k) {
+            if(getSubArrays(nums, n, m) > k) {
                 l = m + 1;
             } else {
                 h = m - 1;

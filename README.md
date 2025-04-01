@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [2262-solving-questions-with-brainpower](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2262-solving-questions-with-brainpower) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/3001-apply-operations-to-maximize-score) |
 ## Math
 |  |
@@ -29,4 +30,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3001-apply-operations-to-maximize-score](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/3001-apply-operations-to-maximize-score) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2262-solving-questions-with-brainpower](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2262-solving-questions-with-brainpower) |
 <!---LeetCode Topics End-->

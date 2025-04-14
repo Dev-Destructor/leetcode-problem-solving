@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1656-count-good-triplets](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/1656-count-good-triplets) |
 | [2262-solving-questions-with-brainpower](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2262-solving-questions-with-brainpower) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/3001-apply-operations-to-maximize-score) |
 ## Math
@@ -69,5 +70,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [1656-count-good-triplets](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/1656-count-good-triplets) |
 | [3548-find-the-count-of-good-integers](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/3548-find-the-count-of-good-integers) |
 <!---LeetCode Topics End-->

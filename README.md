@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1656-count-good-triplets](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/1656-count-good-triplets) |
 | [2262-solving-questions-with-brainpower](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2262-solving-questions-with-brainpower) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2280-count-good-triplets-in-an-array) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/3001-apply-operations-to-maximize-score) |
 ## Math
 |  |
@@ -72,4 +73,28 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1656-count-good-triplets](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/1656-count-good-triplets) |
 | [3548-find-the-count-of-good-integers](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/3548-find-the-count-of-good-integers) |
+## Binary Search
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2280-count-good-triplets-in-an-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2280-count-good-triplets-in-an-array) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2280-count-good-triplets-in-an-array) |
+## Segment Tree
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2280-count-good-triplets-in-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2280-count-good-triplets-in-an-array) |
+## Ordered Set
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/Dev-Destructor/leetcode-problem-solving/tree/master/2280-count-good-triplets-in-an-array) |
 <!---LeetCode Topics End-->
